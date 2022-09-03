@@ -19,9 +19,13 @@
     top: 5%;
 }
 
-.img_logo {
+.img_logo{
     position: absolute;
     width: 10%;
+}
+
+.img_logo img {
+    width: 50%;
 }
 
 
@@ -58,8 +62,14 @@
     /* margin: 1rem; */
     margin-top: 1%;
     position: absolute;
+    text-align: center;
 }
 
+.elemento-izq a {
+    text-decoration: none;
+    color: #737373;
+    font-weight: 600;
+}
 
 .elemento-dcha {
     position: relative;
@@ -320,6 +330,10 @@ font-weight: 700;
     #menu-nav nav ul{
         display: flex;
     
+    }
+    .img_logo{
+        width: 5%;
+        margin-inline-start: 10%;
     }
    
   
