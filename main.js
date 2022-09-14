@@ -11,3 +11,12 @@ for (var i = 0; i <= n; i++) {
     a = b;
     b = c;
 }
+//promedio de estudiantes activos
+//contador estudiante menos de 7 dias
+var estudiantesActivos = 9;
+var estudiantesTotal = 30;
+var porcentajeTotal = 0;
+function porcenEstuAct() {
+    porcentajeTotal = estudiantesTotal / estudiantesActivos;
+    console.log("El porcentaje de estudiantes activos es de " + porcentajeTotal + " %");
+}
