@@ -20,3 +20,8 @@ function porcenEstuAct() {
     porcentajeTotal = estudiantesTotal / estudiantesActivos;
     console.log("El porcentaje de estudiantes activos es de " + porcentajeTotal + " %");
 }
+function averageEst(n1, n2) {
+    var promedioTotal;
+    promedioTotal = n1 / n2;
+    console.log('EL porcentaje total de estudiantes activos es ' + promedioTotal + "%");
+}
