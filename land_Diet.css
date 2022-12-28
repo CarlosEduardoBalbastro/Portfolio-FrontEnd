@@ -43,6 +43,7 @@
 /* 	border-left: 8px solid #fd622b; */
 	/* border-inline-start: 8px solid #19875459; */
     margin-block-start: 10px;
+	
 }
 
 .card img {
@@ -73,4 +74,8 @@
 
 .imagen-intermedio img {
 	opacity: 1;
+}
+
+.intermedio {
+	background-color: #72727215;
 }
