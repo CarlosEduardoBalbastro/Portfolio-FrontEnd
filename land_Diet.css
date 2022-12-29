@@ -35,15 +35,16 @@
 	display: flex;
 	background-color: #fff;
 	border-radius: 4px;
-/* 	padding: 2rem 4rem 2rem 2rem; */
+	padding: 2rem 4rem 2rem 2rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	padding-inline-start: 2rem;
 	padding-inline-end: 2rem;
-/* 	border-left: 8px solid #fd622b; */
-	/* border-inline-start: 8px solid #19875459; */
-    margin-block-start: 10px;
-	
+	/* border-left: 8px solid green; */
+	border-inline-start: 8px solid #19875459;
+    margin-block-start: 2rem;
+	margin-block-end: 2rem;
+	height: 37.3rem;
 }
 
 .card img {
@@ -71,6 +72,9 @@
 	/* border-inline-end: 8px solid #19875459; */
 
 }
+
+
+
 
 .imagen-intermedio img {
 	opacity: 1;
