@@ -15,9 +15,9 @@ font-family: 'Roboto Condensed', sans-serif;
 #header{
     height: 500px;
 
-    background-image: url("/PortfolioArgentinaPrograma/imgLandingDietetica2/DSC_6177.png");
-    background-position: center;
-    background-size: auto;
+    background-image: url("/PortfolioArgentinaPrograma/imgLandingDietetica2/mixturas copy.png");
+    background-position: 50% 10%;
+    background-size: 25%;
     background-repeat: no-repeat ;
 }
 
@@ -77,10 +77,17 @@ h1{
 
 }
 
+
+
 p {
     font-size: 15px;
-    line-height: 18px;
+    line-height: 22px;
     color: #777;
+    
+}
+
+.header-text a {
+    text-decoration: none;
 }
 
 
@@ -171,6 +178,7 @@ nav ul li a {
 
 .about-left-col img {
     width: 100%;
+    border-radius: 4px;
   
     
 }
@@ -257,6 +265,11 @@ nav ul li a {
     border-radius: 3px;
 }
 
+.comun-btn img {
+    width: 1rem;
+    
+}
+
 .feature-btn .line{
     text-align: right;
     display: inline-block;
@@ -273,6 +286,7 @@ nav ul li a {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    /* position: relative; */
 }
 
 .curso-col-dcha{
@@ -302,14 +316,22 @@ nav ul li a {
 
 
 .imagen_suelta {
-    width: 100%;
+    width: 75%;
+    margin: 2rem;
     position: relative;
+    
+    
 
 }
 
 .imagen_suelta img {
-    width: 25%;
+    width: 50%;
+    
     margin-inline-start: 15%;
+    border-radius: 3px;
+    /* box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.116); */
+    
+    
 }
 
 .contacto-fila {
@@ -326,6 +348,9 @@ nav ul li a {
 
 .contacto-col-dcha img {
     width: 100%;
+    border-radius: 4px;
+    box-shadow: 1px 4px 10px #76767663;
+    
 }
 
 
@@ -389,6 +414,8 @@ hr{
 .footer-col-izq{
     flex-basis: 50%;
     margin-top: 60px;
+    padding: .5rem;
+    
 }
 
 .footer-col-dcha{
@@ -401,10 +428,20 @@ hr{
     
     justify-content: space-between;
     flex-wrap: wrap;
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #767676;
+}
+
+.footer-links a:hover{
+    text-shadow: 2px 2px 4px #00000046 ;
 }
 
 .link-title h4{
-    color: #c7c7c7;
+    color: #afafaf;
     margin-bottom: 20px;
 }
 
@@ -426,6 +463,8 @@ hr{
 
 }
 
+
+
 .footer-logo button{
     padding: 12px 38px;
     margin-top: 20px;
@@ -436,6 +475,10 @@ hr{
     flex-basis: 40%;
 
 }
+.copy-text{
+    color: #afafaf;
+}
+
 
 
 

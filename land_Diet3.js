@@ -1,0 +1,8 @@
+let sobreMI = "El 1 de febrero del 2021 comence a estudiar html, css y js realice distintos cursos que encontre en la web para complementar. Actualmente quiero intruducirme en el sector laboral de la tecnologia como Desarrollador Front End. Soy proactivo, autodidacta, considero que el trabajar en equipo permite poder tener distintas miradas, sobre un mismo objetivo y asiayudar a encontrar una solucion mas efeciente para una determinado tarea Busco siempre ser funcional en el rol que me toque. Me caracterizo por ser pesistente ante las adversidades. Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia. Mi principal objetivo es aprender, crecer y aportar todo lo que pueda a la Empresa.";
+let sobreMi2 = "El 1 de febrero del 2021 comence a estudiar HTML, CSS y JS. Actualmente quiero introducirme en el sector laboral de la tecnologia como Desarrollador Front End.Me caracterizo por ser pesistente ante las adversidades. Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia. Mi principal objetivo es aprender, crecer y aportar todo lo que pueda a la Empresa.";
+let sobreMi3 = "Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia como Desarrollador Front End. Mi principal objetivo es aprender, crecer y aportar todo lo que  pueda a la Empresa"
+
+function contarLetras(){
+    let respuesta = sobreMi3.length;
+    console.log(respuesta);
+}

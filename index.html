@@ -14,8 +14,8 @@
 
 <!-- menu navegacion -->
 
-  <nav class="navbar navbar-expand-sm bg-gradient text-bg-dark navbar-dark">
-    <div class="container-fluid">
+  <nav  class="navbar navbar-expand-sm bg-gradient text-bg-dark navbar-dark">
+    <div class="container-fluid" id="home">
       <!-- logo github -->
       <a class="navbar-brand mx-3" href="https://github.com/CarlosEduardoBalbastro"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-github text-white" viewBox="0 0 16 16">
         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
@@ -81,7 +81,7 @@
         <figcaption class="blockquote-footer">
           DEVELOPER<cite title="Source Title"> FRONTEND JR</cite>
         </figcaption>
-        <button type="button" class="mt-5 btn btn-outline-warning" ><a class="text-decoration-none text-dark " href="/PortfolioArgentinaPrograma/img/CV22_Carlos_Balbastro_FrontEndJR.pdf" download="CV22_Carlos_Balbastro_FrontEndJR">Descargar CV</a></button>
+        <button type="button" class="mt-5 btn btn-outline-warning" ><a class="text-decoration-none text-dark " href="/PortfolioArgentinaPrograma/img/CV22_Carlos_Balbastro_FrontEndJR.pdf" download="CV22_Carlos_Balbastro_FrontEndJR">Descargar <span class="fw-semibold">CV</span></a></button>
       </figure>
     </div>
 
@@ -106,13 +106,23 @@
   <a href="#sobreMiHiden" type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="collapse"  ><h3>Sobre mi...</h3></a>
 
     <div class="card card-body border-0">
-      <p id="sobreMiHiden" type="text" class="collapse multi-collapse">El 2009 me formé como Fotografo desde entonces realizo distintos trabajos como Fotografía de Eventos Sociales, 
-        Retratos, Productos, Diseño y Prensa. <br>
-         El 1 de febrero del 2021 comencé a estudiar de manera autodidacta <b>HTML</b>, <b>CSS</b>  y <b>JS</b>. <br>
-        En el año 2022 recibi una Beca de la <b>Empresa i2T</b> 
-        sobre "Fundamentos de la Programación" y concluí con éxito. <br>
-        Actualmente estoy Cursando 
-   la "Segunda Etapa de Argentina Programa <b>#YoProgramo</b>".</p> 
+      <p id="sobreMiHiden" type="text" class="collapse multi-collapse">
+El 1 de febrero del 2021 comence a estudiar <span class="fw-semibold text-uppercase">html</span>, <span class="fw-semibold text-uppercase">css</span> y <span class="fw-semibold text-uppercase">js</span> 
+de manera autodidacta, realice distintos cursos que encontre en la web para complementar. <br>
+<!-- Actualmente quiero intruducirme en el sector laboral de la tecnologia como <span class="fw-bold">Desarrollador Front End</span>.<br>
+Soy proactivo, autodidacta, considero que el trabajar en equipo permite poder tener distintas miradas, sobre un mismo objetivo y asi
+ ayudar a encontrar una solucion mas efeciente para una determinado tarea<br>
+Busco siempre ser funcional en el rol que me toque. Me caracterizo por ser pesistente ante las adversidades. <br>
+Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia. <br>
+Mi principal objetivo es aprender, crecer y aportar todo lo que pueda a la Empresa. -->
+Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia como 
+<span class="fw-semibold">Desarrollador Front End</span>. <br> Mi principal objetivo es aprender, crecer y aportar todo lo que  pueda a la Empresa
+      </p> 
+   
+   <p></p>
+
+
+
     </div>
 
    
@@ -142,7 +152,7 @@
   <!-- boton que genera modal -->
 
   <a type="button"  class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#certificadoMumuki">
-    Curso "Sé Programar" Desarrollado por CESSI, i2T y Mumuki
+    Curso <span class="fw-semibold">"Sé Programar"</span> Desarrollado por CESSI, i2T y Mumuki
     duracion 95hs</a> 
 
 
@@ -175,7 +185,7 @@
 <!-- boton que genera modal -->
 
 <a type="button"  class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#certificadoScrum">
-  Curso "Gestión de Proyectos con Metodologías Ágiles" de FUNDACIÓN
+  Curso <span class="fw-semibold">"Gestión de Proyectos con Metodologías Ágiles"</span> de FUNDACIÓN
 TELEFONICA MOVISTAR cuya carga horario fue de 40hs
 </a>
 
@@ -203,7 +213,7 @@ TELEFONICA MOVISTAR cuya carga horario fue de 40hs
 
    <!-- boton que genera modal  -->
    <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#certificadoUnc">
-     Curso "Diseño y Desarrollo Web" dictado por la UNIVERSIDAD
+     Curso <span class="fw-semibold">"Diseño y Desarrollo Web"</span> dictado por la UNIVERSIDAD
    TECNOLÓGICA DE CÓRDOBA cuya carga horario fue de 20hs
    </a>
    
@@ -231,7 +241,7 @@ TELEFONICA MOVISTAR cuya carga horario fue de 40hs
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#certificadoPolitecnico">
-  Curso "Diseño y Desarrollo Web" organizado por la SECRETARIA
+  Curso <span class="fw-semibold">"Diseño y Desarrollo Web"</span> organizado por la SECRETARIA
   DE PROMOCIÓN DE EMPLEO DE LA MUNICIPALIDAD DE CÓRDOBA
   dictado por profesionales de la UNIVERSIDAD TECNOLÓGICA NACIONAL
 </a>
@@ -260,7 +270,7 @@ TELEFONICA MOVISTAR cuya carga horario fue de 40hs
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica1">
-  Curso "Diseño Web con HTML5 y CSS3" dictado por FUNDACIÓN TELEFÓNICA
+  Curso <span class="fw-semibold">"Diseño Web con HTML5 y CSS3"</span> dictado por FUNDACIÓN TELEFÓNICA
 MOVISTAR cuya carga horario fue 30hs
 </a>
 
@@ -286,7 +296,7 @@ MOVISTAR cuya carga horario fue 30hs
 
 <!-- boton modal -->
 
-<a type="botton" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica2">Ha superado con éxito el Curso de 30hs "Introduccion a la Programación"
+<a type="botton" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica2">Ha superado con éxito el Curso de 30hs <span class="fw-semibold">"Introduccion a la Programación"</span> 
   dictado por FUNDACIÓN TELEFÓNICA MOVISTAR</a>
 
 <!-- modal -->
@@ -309,7 +319,7 @@ MOVISTAR cuya carga horario fue 30hs
 <h2 class="blockquote-footer my-2">2021</h2>
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundamentosProgramacionTelefonica">
-  Curso "Fundamentos de Programación" de FUNDACIÓN TELEFÓNICA MOVISTAR
+  Curso <span class="fw-semibold">"Fundamentos de Programación"</span> de FUNDACIÓN TELEFÓNICA MOVISTAR
 cuya carga horario fue de 40hs
 </a>
 
@@ -336,7 +346,7 @@ cuya carga horario fue de 40hs
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#habilidadEmpleo">
-  Ha superado con éxito el Curso "Habilidades para el Empleo" de
+  Ha superado con éxito el Curso <span class="fw-semibold">"Habilidades para el Empleo"</span> de
   FUNDACIÓN TELEFÓNICA MOVISTAR cuya carga hpraria fue de 30hs
 </a>
 
@@ -362,7 +372,7 @@ cuya carga horario fue de 40hs
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#graphicDesign">
-  Certifico que Ha asistido y completado el Curso "Fundamentos de Diseño Gráfico" de 18hs
+  Certifico que Ha asistido y completado el Curso <span class="fw-semibold">"Fundamentos de Diseño Gráfico"</span> de 18hs
   en Centro de Capacitación y Desarrollo Profesional Educacion IT
 </a>
 
@@ -389,7 +399,7 @@ cuya carga horario fue de 40hs
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#introMundoWeb">
-  Curso "Introducción al Mundo Web" 12hs dictado por 
+  Curso <span class="fw-semibold">"Introducción al Mundo Web"</span> 12hs dictado por 
   Centro de Capacitacion y Desarrollo Profesional Educacion IT
 </a>
 
@@ -415,7 +425,7 @@ cuya carga horario fue de 40hs
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#introLenguajeProgramacion">
-Curso "Introducción al lenguaje de Programación" 12hs 
+Curso <span class="fw-semibold">"Introducción al lenguaje de Programación"</span> 12hs 
 dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
 </a>
 
@@ -442,7 +452,7 @@ dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#progJs">
-  Ha superado con éxito el Curso de 40hs "Programación con JavaScript"
+  Ha superado con éxito el Curso de 40hs <span class="fw-semibold">"Programación con JavaScript"</span> 
   de la FUNDACIÓN TELEFÓNICA MOVISTAR
 </a>
 
@@ -468,7 +478,7 @@ dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
 <!-- boton modal -->
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#tecnicoImagenes">
-  Técnico Superior en Imágenes 
+<span class="fw-semibold">Técnico Superior en Imágenes Fotográficas</span>
 Escuela de Artes Aplicadas Lino Enea Spilimbergo
 </a>
 
@@ -507,7 +517,7 @@ Escuela de Artes Aplicadas Lino Enea Spilimbergo
 
 
 
-<a type="button" href="/PortfolioArgentinaPrograma/PortfolioFrontEnd/land_Photo.html" target="_blank" class="btn text-decoration-none border-0 text-dark">
+<a type="button" href="https://comfy-snickerdoodle-3addbb.netlify.app/index.html" target="_blank" class="btn text-decoration-none border-0 text-dark">
 Working Progres pagina Fotografia</a> 
 
 
@@ -516,7 +526,7 @@ Working Progres pagina Fotografia</a>
 <h2 class="blockquote-footer my-2" id="working_progress_escMusica">2022</h2>
 
 
-<a class="btn text-decoration-none border-0 text-dark" href="/PortfolioArgentinaPrograma/PortfolioFrontEnd/land_Diet.html" target="_blank">Working Progress Dietética</a>
+<a class="btn text-decoration-none border-0 text-dark" href="https://quiet-malabi-0c97b6.netlify.app/index.html" target="_blank">Landing Page Dietética</a>
 
 
 
@@ -565,10 +575,10 @@ Working Progres Pagina Productos
 <div class="container mt-5">
   <h2 class="text-center mt-5  border-bottom border-2 ">Habilidades</h2>
   <dl class="mt-5">
-    <dt class="mb-3">HTML - CSS - JS</dt>
+    <dt class="mb-3">HTML - CSS - JS - TypeScript</dt>
     <dd class="mb-3">Bootstrap</dd>
     <dt class="mb-3">Figma</dt>
-    <dd class="mb-3">TypeScript</dd>
+    <dd class="mb-3">Angular</dd>
     <dt class="mb-3">Java</dt>
     <dd class="mb-3">Netbeans</dd>
     <dt class="mb-3">Visual Studio Code</dt>    
@@ -597,41 +607,46 @@ Working Progres Pagina Productos
   
 
   <h2 class="text-center mt-5  border-bottom border-2 ">Contacto</h2>
-  <form class="mt-1">
+  <form target="_blank" action="https://formsubmit.co/balbastrocae@gmail.com" method="POST" class="mt-1">
+    <div class="mb-1">
+      <label for="exampleFormControlInput1" class="form-label mt-3 fw-semibold text-secondary">Nombre Completo</label>
+      <input type="text"  name="name" class="form-control"" placeholder="nombre completo" required>
+    </div>
+
     <div class="mb-3">
     
 
-      <label for="exampleFormControlInput1" class="form-label mt-5">Email </label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
+      <label for="exampleFormControlInput1" class="form-label fw-semibold text-secondary">Email</label>
+      <input type="email" name="email" class="form-control"  placeholder="nombre@email.com" required>
     </div>
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Consultas - Presupuestos</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su Consulta aquí, en breve nos comunicaremos..."></textarea>
+      <label for="exampleFormControlTextarea1" class="form-label fw-semibold text-secondary">Consultas - Presupuestos</label>
+      <textarea name="message" class="form-control" rows="3" placeholder="Escriba su Consulta aquí, en breve nos comunicaremos..." required></textarea>
 
       <fieldset class="row mb-3">
-        <legend class="col-form-label col-sm-2 pt-0">Consultas</legend>
+        <!-- <legend class="col-form-label fst-italic col-sm-2 pt-0">Consultas</legend> -->
         <div class="col-sm-10">
-          <div class="form-check">
+          <!-- <div class="form-check">
             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
             <label class="form-check-label" for="gridRadios1">
               Diseño Pagina Web Estática
             </label>
-          </div>
-          <div class="form-check">
+          </div> -->
+          <!-- <div class="form-check">
             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
             <label class="form-check-label" for="gridRadios2">
               Diseño Pagina Web Dinámica
             </label>
-          </div>
-          <div class="form-check disabled">
+          </div> -->
+          <!-- <div class="form-check disabled">
             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
             <label class="form-check-label" for="gridRadios3">
               Diseño BackEnd
             </label>
-          </div>
+          </div> -->
         </div>
       </fieldset>
-      <div class="row mb-3">
+      <!-- <div class="row mb-3">
         <div class="col-sm-10 offset-sm-2">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck1">
@@ -640,10 +655,11 @@ Working Progres Pagina Productos
             </label>
           </div>
         </div>
-    </div>
+    </div> -->
   
   
-    <button type="submit" class="btn btn-outline-warning d-block w-100 mx-auto text-dark">Enviar</button>
+    <button type="submit"  class="btn btn-outline-warning d-block w-100 mx-auto  fw-semibold text-secondary">Enviar</button>
+    <!-- <a href="mailto:balbastrocae@gmail.com" class="btn btn-outline-warning d-block w-100 mx-auto text-dark text-decoration-none">Enviar Email</a> -->
   </form>
   
 
@@ -692,17 +708,24 @@ Working Progres Pagina Productos
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
       <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
     </svg></a>
-  <a  class="icon-contacto text-decoration-none m-2 text-white" href="https://www.facebook.com/carloseduardo.balbastro" target="_blank">
+  <!-- <a  class="icon-contacto text-decoration-none m-2 text-white" href="https://www.facebook.com/carloseduardo.balbastro" target="_blank">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-    </svg></a>
-    <a  class="icon-contacto text-decoration-none m-2 text-white" href="https://www.whatsapp.com/?lang=es" target="_blank">
+    </svg></a> -->
+    <a  class="icon-contacto text-decoration-none m-2 text-white" type="t" href="https://api.whatsapp.com/send/?phone=5493516326925" target="_blank">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
       </svg></a>
         <a class="navbar-brand m-2" href="https://github.com/CarlosEduardoBalbastro"> <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-github text-white" viewBox="0 0 16 16">
         <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
       </svg></a>
+      <a href="#home" class="text-decoration-none text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+        </svg>
+      </a>
+
+     
     
   </div>
   
