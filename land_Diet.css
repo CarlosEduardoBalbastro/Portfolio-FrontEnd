@@ -41,7 +41,8 @@
 	padding-inline-start: 2rem;
 	padding-inline-end: 2rem;
 	/* border-left: 8px solid green; */
-	border-inline-start: 8px solid #19875459;
+	border-block-start: 8px solid #19875459;
+	border-block-end: 6px solid rgba(137, 43, 226, 0.295);
     margin-block-start: 2rem;
 	margin-block-end: 2rem;
 	height: 37.3rem;
@@ -81,5 +82,7 @@
 }
 
 .intermedio {
-	background-color: #72727215;
+	background-color: #72727200;
+	
 }
+
