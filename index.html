@@ -38,9 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#sobreMi">Sobre mi</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#contacto">Contacto</a>
           </li>  
@@ -81,13 +81,21 @@
         <figcaption class="blockquote-footer">
           DEVELOPER<cite title="Source Title"> FRONTEND JR</cite>
         </figcaption>
-        <button type="button" class="mt-5 btn btn-outline-warning" ><a class="text-decoration-none text-dark " href="/PortfolioArgentinaPrograma/img/CV22_Carlos_Balbastro_FrontEndJR.pdf" download="CV22_Carlos_Balbastro_FrontEndJR">Descargar <span class="fw-semibold">CV</span></a></button>
+        <button type="button" class="mt-5 btn btn-outline-warning">
+          <a class="text-decoration-none text-dark fw-semibold " href="/PortfolioArgentinaPrograma/img/CV22_Carlos_Balbastro_FrontEndJR.pdf" download="CV22_Carlos_Balbastro_FrontEndJR">Descargar 
+            <span class="fw-bold">CV</span>
+          </a>
+        </button>
       </figure>
     </div>
 
 
     <div class="col-sm-6">
-      <img src="/PortfolioArgentinaPrograma/img/DSC_1958_perfil_CEB.png" class="w-50 rounded-circle mt-2 pt-0 float-end float-md-none" alt="Carlos Balbastro FrontEnd" width="100">
+      <a type="button"  class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#infoPersonal">
+        <img src="/PortfolioArgentinaPrograma/img/DSC_1958_perfil_CEB.png" class="w-50 rounded-circle mt-2 pt-0 float-end float-md-none" alt="Carlos Balbastro FrontEnd" width="100">
+      </a> 
+
+     
       
     </div>
 
@@ -95,41 +103,52 @@
   </div>
 </div>
 
+  <!-- Modal -->
 
+  <div class="modal fade" id="infoPersonal" tabindex="-1" aria-labelledby="infoPersonalModalLabel" aria-hidden="true">
+          
+    <div class="modal-dialog modal-dialog-centered ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title fw-semibold text-dark" id="infoPersonalModalLabel">Carlos Balbastro <small class="text-secondary">FrontEnd Developer</small> </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" arial-label="Close"></button>
+        </div>
+        <div class="modal-body w-100">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul>
+                <li><span class="text-dark fw-semibold">Fecha de Nacimiento:</span> <span class="text-secondary fw-semibold">26/07/1982</span></li>
+                <li><span class="text-dark fw-semibold">Edad:</span> <span class="text-secondary fw-semibold">40 años</span></li>
+                <li><span class="text-dark fw-semibold">Nacionalidad:</span> <span class="text-secondary fw-semibold">Argentino</span> </li>
+                <li><span class="text-dark fw-semibold">Lugar de Nacimiento:</span> <span class="text-secondary fw-semibold">Paso de Los Libres - Ctes.</span> </li>
+                <li><span class="text-dark fw-semibold">Lugar de Residencia:</span> <span class="text-secondary fw-semibold"> Córdoba - Cba.</span> </li>
+                <li><span class="text-dark fw-semibold">Estado Civil:</span> <span class="text-secondary fw-semibold">Soltero</span>  </li>
+                <li><span class="text-dark fw-semibold">Hijos:</span> <span class="text-secondary fw-semibold">Sí, uno</span></li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <img src="/PortfolioArgentinaPrograma/img/DSC_1958_perfil_CEB.png" class="img-fluid mx-auto d-block w-100" alt="Carlos Balbastro FrontEnd">
+            </div>
+
+          </div>
+         
+        </div>
+      </div>
+    </div>
+  </div>
 
 <br>
 
 
 <!-- sobre mi -->
 <div class="container" id="sobreMi">
+
+  <p id="sobreMiHiden" type="text" >
+  <span class="fw-semibold">Mi principal objetivo es aprender, crecer y aportar todo lo que  pueda a la Empresa</span> 
+  </p> 
  
-  <a href="#sobreMiHiden" type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="collapse"  ><h3>Sobre mi...</h3></a>
-
-    <div class="card card-body border-0">
-      <p id="sobreMiHiden" type="text" class="collapse multi-collapse">
-El 1 de febrero del 2021 comence a estudiar <span class="fw-semibold text-uppercase">html</span>, <span class="fw-semibold text-uppercase">css</span> y <span class="fw-semibold text-uppercase">js</span> 
-de manera autodidacta, realice distintos cursos que encontre en la web para complementar. <br>
-<!-- Actualmente quiero intruducirme en el sector laboral de la tecnologia como <span class="fw-bold">Desarrollador Front End</span>.<br>
-Soy proactivo, autodidacta, considero que el trabajar en equipo permite poder tener distintas miradas, sobre un mismo objetivo y asi
- ayudar a encontrar una solucion mas efeciente para una determinado tarea<br>
-Busco siempre ser funcional en el rol que me toque. Me caracterizo por ser pesistente ante las adversidades. <br>
-Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia. <br>
-Mi principal objetivo es aprender, crecer y aportar todo lo que pueda a la Empresa. -->
-Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar esa experiencia al rubro de la tecnologia como 
-<span class="fw-semibold">Desarrollador Front End</span>. <br> Mi principal objetivo es aprender, crecer y aportar todo lo que  pueda a la Empresa
-      </p> 
-   
-   <p></p>
-
-
-
-    </div>
-
-   
-   
-  
-
 </div>
+
 
 
 
@@ -155,6 +174,7 @@ Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar e
     Curso <span class="fw-semibold">"Sé Programar"</span> Desarrollado por CESSI, i2T y Mumuki
     duracion 95hs</a> 
 
+    <img src="/PortfolioArgentinaPrograma/img/i2t_etapa_1_2022_CarlosBalbastro.jpg" class="img-fluid mx-auto d-block w-75 shadow-sm" alt="Certificado Mumuki">
 
     <!-- Modal -->
 
@@ -189,6 +209,7 @@ Hace diez años me desenvuelvo trabajando como Fotografo y ahora quiero llevar e
 TELEFONICA MOVISTAR cuya carga horario fue de 40hs
 </a>
 
+<img src="/PortfolioArgentinaPrograma/img/FT AR - Certificado.jpg" class="img-fluid mx-auto d-block w-75 shadow-sm " alt="fundacion telefonica">
 
   <!-- Modal -->
 
@@ -216,6 +237,8 @@ TELEFONICA MOVISTAR cuya carga horario fue de 40hs
      Curso <span class="fw-semibold">"Diseño y Desarrollo Web"</span> dictado por la UNIVERSIDAD
    TECNOLÓGICA DE CÓRDOBA cuya carga horario fue de 20hs
    </a>
+
+   <img src="/PortfolioArgentinaPrograma/img/certificado_ub5c7RmqqReqmdYjH4Z_29537373.jpg" class="img-fluid mx-auto d-block w-75 shadow-sm" alt="certificado UTN">
    
    
    <!-- modal -->
@@ -246,6 +269,8 @@ TELEFONICA MOVISTAR cuya carga horario fue de 40hs
   dictado por profesionales de la UNIVERSIDAD TECNOLÓGICA NACIONAL
 </a>
 
+<img src="/PortfolioArgentinaPrograma/img/certificado_politecnico.jpg" class="img-fluid mx-auto d-block w-75 shadow-sm " alt="certificado politecnico">
+
 <!-- modal -->
 <div class="modal fade" id="certificadoPolitecnico" tabindex="-1" aria-labelledby="politecnicoModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -265,17 +290,17 @@ TELEFONICA MOVISTAR cuya carga horario fue de 40hs
 
 <!-- fecha -->
 
-<h2 class="blockquote-footer my-2">2021</h2>
+<!-- <h2 class="blockquote-footer my-2">2021</h2> -->
 
 <!-- boton modal -->
 
-<a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica1">
+<!-- <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica1">
   Curso <span class="fw-semibold">"Diseño Web con HTML5 y CSS3"</span> dictado por FUNDACIÓN TELEFÓNICA
 MOVISTAR cuya carga horario fue 30hs
-</a>
+</a> -->
 
 <!-- modal -->
-<div class="modal fade" id="fundacionTelefonica1" tabindex="-1" aria-labelledby="fundacionModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="fundacionTelefonica1" tabindex="-1" aria-labelledby="fundacionModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -287,21 +312,21 @@ MOVISTAR cuya carga horario fue 30hs
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- FECHA -->
 
-<h2 class="blockquote-footer my-2">2021</h2>
+<!-- <h2 class="blockquote-footer my-2">2021</h2> -->
 
 <!-- boton modal -->
 
-<a type="botton" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica2">Ha superado con éxito el Curso de 30hs <span class="fw-semibold">"Introduccion a la Programación"</span> 
-  dictado por FUNDACIÓN TELEFÓNICA MOVISTAR</a>
+<!-- <a type="botton" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundacionTelefonica2">Ha superado con éxito el Curso de 30hs <span class="fw-semibold">"Introduccion a la Programación"</span> 
+  dictado por FUNDACIÓN TELEFÓNICA MOVISTAR</a> -->
 
 <!-- modal -->
 
-<div class="modal fade" id="fundacionTelefonica2" tabindex="-1" aria-labelledby="telefonicaModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="fundacionTelefonica2" tabindex="-1" aria-labelledby="telefonicaModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -313,19 +338,19 @@ MOVISTAR cuya carga horario fue 30hs
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
-<h2 class="blockquote-footer my-2">2021</h2>
+<!-- <h2 class="blockquote-footer my-2">2021</h2>
 
 <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#fundamentosProgramacionTelefonica">
   Curso <span class="fw-semibold">"Fundamentos de Programación"</span> de FUNDACIÓN TELEFÓNICA MOVISTAR
 cuya carga horario fue de 40hs
-</a>
+</a> -->
 
 <!-- modal -->
 
-<div class="modal fade" id="fundamentosProgramacionTelefonica" tabindex="-1" aria-labelledby="fundProgTelModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="fundamentosProgramacionTelefonica" tabindex="-1" aria-labelledby="fundProgTelModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -337,7 +362,7 @@ cuya carga horario fue de 40hs
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- fecha -->
@@ -349,6 +374,9 @@ cuya carga horario fue de 40hs
   Ha superado con éxito el Curso <span class="fw-semibold">"Habilidades para el Empleo"</span> de
   FUNDACIÓN TELEFÓNICA MOVISTAR cuya carga hpraria fue de 30hs
 </a>
+
+
+<img src="/PortfolioArgentinaPrograma/img/FT AR - Habilidades para el Empleo.jpg" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
 
 <!-- modal -->
 
@@ -376,6 +404,9 @@ cuya carga horario fue de 40hs
   en Centro de Capacitación y Desarrollo Profesional Educacion IT
 </a>
 
+
+<img src="/PortfolioArgentinaPrograma/img/Certificado Fundamentos del Diseño Grafico.jpg" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+
 <!-- modal -->
 
 <div class="modal fade" id="graphicDesign" tabindex="-1" aria-labelledby="graphicDesignModalLabel" aria-hidden="true">
@@ -394,18 +425,18 @@ cuya carga horario fue de 40hs
 
 
 <!-- fecha -->
-<h2 class="blockquote-footer my-2">2021</h2>
+<!-- <h2 class="blockquote-footer my-2">2021</h2> -->
 
 <!-- boton modal -->
 
-<a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#introMundoWeb">
+<!-- <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#introMundoWeb">
   Curso <span class="fw-semibold">"Introducción al Mundo Web"</span> 12hs dictado por 
   Centro de Capacitacion y Desarrollo Profesional Educacion IT
-</a>
+</a> -->
 
 <!-- modal -->
 
-<div class="modal fade" id="introMundoWeb" tabindex="-1" aria-labelledby="introMundoWebModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="introMundoWeb" tabindex="-1" aria-labelledby="introMundoWebModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -417,21 +448,21 @@ cuya carga horario fue de 40hs
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- fecha -->
-<h2 class="blockquote-footer my-2">2021</h2>
+<!-- <h2 class="blockquote-footer my-2">2021</h2> -->
 
 <!-- boton modal -->
 
-<a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#introLenguajeProgramacion">
+<!-- <a type="button" class="btn text-decoration-none border-0 text-dark" data-bs-toggle="modal" data-bs-target="#introLenguajeProgramacion">
 Curso <span class="fw-semibold">"Introducción al lenguaje de Programación"</span> 12hs 
 dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
-</a>
+</a> -->
 
 <!-- modal -->
 
-<div class="modal fade" id="introLenguajeProgramacion" tabindex="-1" aria-labelledby="introLenProgModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="introLenguajeProgramacion" tabindex="-1" aria-labelledby="introLenProgModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -443,7 +474,7 @@ dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- fecha -->
@@ -455,6 +486,8 @@ dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
   Ha superado con éxito el Curso de 40hs <span class="fw-semibold">"Programación con JavaScript"</span> 
   de la FUNDACIÓN TELEFÓNICA MOVISTAR
 </a>
+
+<img src="/PortfolioArgentinaPrograma/img/FT AR - Programación con JavaScript.jpg" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
 
 <!-- modal -->
 
@@ -482,6 +515,9 @@ dictado por Centro de Capacitacion y Desarrollo Profesional Educacion IT
 Escuela de Artes Aplicadas Lino Enea Spilimbergo
 </a>
 
+
+<img src="/PortfolioArgentinaPrograma/img/Titulo_Fotografia_Carlos_Balbastroweb.jpg" alt="Introducción a la Programación"  class="img-fluid mx-auto d-block w-75 shadow-sm">
+
 <!-- modal -->
 
 <div class="modal fade" id="tecnicoImagenes" tabindex="-1" aria-labelledby="tecnicoImagenesModalLabel" aria-hidden="true">
@@ -492,7 +528,7 @@ Escuela de Artes Aplicadas Lino Enea Spilimbergo
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body w-100">
-        <img src="/PortfolioArgentinaPrograma/img/Titulo_Fotografia_Carlos_Balbastroweb.jpg"Introducción a la Programación" class="img-fluid mx-auto d-block w-100">
+        <img src="/PortfolioArgentinaPrograma/img/Titulo_Fotografia_Carlos_Balbastroweb.jpg" alt="Introducción a la Programación"  class="img-fluid mx-auto d-block w-100">
       </div>
     </div>
   </div>
@@ -517,8 +553,13 @@ Escuela de Artes Aplicadas Lino Enea Spilimbergo
 
 
 
-<a type="button" href="https://comfy-snickerdoodle-3addbb.netlify.app/index.html" target="_blank" class="btn text-decoration-none border-0 text-dark">
-Working Progres pagina Fotografia</a> 
+<a type="button" href="https://comfy-snickerdoodle-3addbb.netlify.app/index.html" target="_blank" class="btn text-decoration-none border-0 text-dark mb-2 fw-semibold">
+Working Progress Land Page Fotografía <span class="text-secondary text-uppercase fw-semibold">html|css|js</span></a> 
+
+<a type="button" href="https://comfy-snickerdoodle-3addbb.netlify.app/index.html" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+  <img src="/PortfolioArgentinaPrograma/img/2023-03-14_16h21_59.png" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+</a>
+
 
 
 <!-- fecha -->
@@ -526,45 +567,68 @@ Working Progres pagina Fotografia</a>
 <h2 class="blockquote-footer my-2" id="working_progress_escMusica">2022</h2>
 
 
-<a class="btn text-decoration-none border-0 text-dark" href="https://quiet-malabi-0c97b6.netlify.app/index.html" target="_blank">Landing Page Dietética</a>
-
-
-
-<!-- fecha -->
-
-<!-- <h2 class="blockquote-footer my-2" id="working_progress_dietetica">2021</h2>
-
-
-<a type="button" href="/PortfolioArgentinaPrograma/PortfolioFrontEnd/land_Diet2.html" class="btn text-decoration-none border-0 text-dark" target="_blank">
-Working Progres Mix Saludables
-</a> -->
-
+<a class="btn text-decoration-none border-0 text-dark mb-2" href="https://peaceful-mandazi-3f9b74.netlify.app/" target="_blank">Landing Page <span class="fw-semibold">Dietética</span> <span class="text-secondary text-uppercase fw-semibold">html|css|js|bootstrap</span>
+</a>
+<a type="button" href="https://peaceful-mandazi-3f9b74.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+  <img src="/PortfolioArgentinaPrograma/img/2023-03-14_16h26_41.png" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+</a>
 
 
 <!-- fecha -->
 
-<!-- <h2 class="blockquote-footer my-2">2021</h2>
+<h2 class="blockquote-footer my-2" id="working_progress_dietetica">2023</h2>
 
 
+<a type="button" href="https://clinquant-bunny-5b66a6.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+Working Progress <span class="fw-semibold">Salva Draws</span>  <span class="text-secondary text-uppercase fw-semibold">html|css|js|bootstrap</span>
+</a>
+<a type="button" href="https://clinquant-bunny-5b66a6.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
 
-<a type="button" href="/PortfolioArgentinaPrograma/PortfolioFrontEnd/land_PHCarrusel.html" class="btn text-decoration-none border-0 text-dark" target="_blank">
-Workin Progres Photo Gallery
-</a> -->
-
-
-
+  <img src="/PortfolioArgentinaPrograma/img/2023-03-14_16h25_21.png" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+</a>
 
 
 <!-- fecha -->
 
-<!-- <h2 class="blockquote-footer my-2">2021</h2>
+<h2 class="blockquote-footer my-2">2023</h2>
 
 
 
-<a type="button" href="/PortfolioArgentinaPrograma/PortfolioFrontEnd/land_Productos.html" class="btn text-decoration-none border-0 text-dark" target="_blank">
-Working Progres Pagina Productos
-</a> -->
+<a type="button" href="https://superlative-sfogliatella-428e12.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+Landing Page <span class="fw-semibold">Secuencia Fibonacci</span>  <span class="text-secondary text-uppercase fw-semibold">html|css|js|bootstrap</span>
+</a>
+<a type="button" href="https://superlative-sfogliatella-428e12.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+  <img src="/PortfolioArgentinaPrograma/img/2023-03-14_16h24_21.png" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+</a>
 
+
+<!-- fecha -->
+
+<h2 class="blockquote-footer my-2">2023</h2>
+
+
+
+<a type="button" href="https://endearing-daffodil-6ee691.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+Landing Page <span class="text-fw-semibold">Calcular Indice Masa Corporal</span> <span class="text-secondary text-uppercase fw-semibold">html|css|js|bootstrap</span>
+</a>
+<a type="button" href="https://endearing-daffodil-6ee691.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+  <img src="/PortfolioArgentinaPrograma/img/2023-03-14_16h23_54.png" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+</a>
+
+
+<!-- fecha -->
+
+<h2 class="blockquote-footer my-2">2023</h2>
+
+
+
+<a type="button" href="https://grand-sable-71d775.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+Landing Page <span class="fw-semibold">RenoGrow </span> <span class="text-secondary text-uppercase fw-semibold">html|css|js|bootstrap</span>
+</a>
+
+<a type="button" href="https://grand-sable-71d775.netlify.app/" class="btn text-decoration-none border-0 text-dark mb-2" target="_blank">
+  <img src="/PortfolioArgentinaPrograma/img/2023-03-14_16h27_27.png" alt="Introducción a la Programación" class="img-fluid mx-auto d-block w-75 shadow-sm">
+</a>
 
 
 
@@ -574,16 +638,17 @@ Working Progres Pagina Productos
 
 <div class="container mt-5">
   <h2 class="text-center mt-5  border-bottom border-2 ">Habilidades</h2>
-  <dl class="mt-5">
+  <dl class="mt-5 fw-semibold">
     <dt class="mb-3">HTML - CSS - JS - TypeScript</dt>
     <dd class="mb-3">Bootstrap</dd>
     <dt class="mb-3">Figma</dt>
     <dd class="mb-3">Angular</dd>
     <dt class="mb-3">Java</dt>
-    <dd class="mb-3">Netbeans</dd>
-    <dt class="mb-3">Visual Studio Code</dt>    
-    <dd class="mb-3">Adobe Photoshop</dd>
-    <dt class="mb-3">Adobe Photoshop Lightroom</dt>
+    <dd class="mb-3">Spring Boot</dd>
+    <dt class="mb-3">Netbeans</dt>
+    <dd class="mb-3">Visual Studio Code</dd>    
+    <dt class="mb-3">Adobe Photoshop</dt>
+    <dd class="mb-3">Adobe Photoshop Lightroom</dd>
 
   <h2 class="text-center mt-5  border-bottom border-2 ">Idiomas</h2>
 
@@ -598,6 +663,9 @@ Working Progres Pagina Productos
 
  
 </div>
+
+
+
 
 <!-- Contacto -->
 

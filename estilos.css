@@ -5,7 +5,9 @@ img {
 }
 
 
-
+img:hover{
+    filter: grayscale(57%);
+}
 
 
 .icon-contacto:hover{
